@@ -8,7 +8,7 @@ final class TodoLoading extends TodoState {}
 
 final class TodoLoaded extends TodoState {
   final List<Todo> todos;
-  final DateTime? selectedDate;
+  DateTime? selectedDate;
 
   TodoLoaded({required this.todos, required this.selectedDate});
 }
