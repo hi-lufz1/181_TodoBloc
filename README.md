@@ -1,4 +1,7 @@
 # todo_app_bloc
+![image](https://github.com/user-attachments/assets/12c602b4-12d1-4697-af78-1e8ad41ff846)
+![image](https://github.com/user-attachments/assets/313285f4-f680-4ecc-be03-8a0e98c1b7c8)
+
 
 A new Flutter project.
 
