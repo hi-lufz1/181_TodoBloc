@@ -107,6 +107,14 @@ class TodoPage extends StatelessWidget {
                       if (state.todos.isEmpty) {
                         return Center(child: Text('Todo List is empty'));
                       }
+                      return ListView.builder(
+                        itemCount: state.todos.length,
+                        itemBuilder: (context, index) {
+                          final todo = state.todos[index];
+                          return Container(
+                          );
+                        },
+                      );
                     } else {
                       return Center(child: Text('No todos Available'));
                     }
